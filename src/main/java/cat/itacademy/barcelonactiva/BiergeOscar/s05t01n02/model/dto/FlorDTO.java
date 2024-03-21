@@ -63,6 +63,8 @@ public class FlorDTO {
         florDTO.setPk_FlorID(flor.getPk_FlorID());
         florDTO.setNomFlor(flor.getNomFlor());
         florDTO.setPaisFlor(flor.getPaisFlor());
+        //se puedeutilizar model mapper para quitar lineas de codigo:
+
 
         if (paisosUE.contains(flor.getPaisFlor())){
             florDTO.setTipusFlor("UE");
